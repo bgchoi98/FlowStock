@@ -1,0 +1,84 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IntelliJ / IDE
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VSCode
+.vscode/
+
+# =========================
+# Java / Gradle
+# =========================
+.gradle/
+build/
+**/build/
+
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Spring Boot Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Spring Properties
+# =========================
+. Properties
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Docker / DB Volume
+# =========================
+docker-data/
+postgres-data/
+redis-data/
+data/
+
+# =========================
+# Client / Node
+# =========================
+node_modules/
+dist/
+.next/
+coverage/
+
+client/**/node_modules/
+client/**/dist/
+client/**/.env.local
+client/**/.env.development
+client/**/.env.production
+
+# =========================
+# Test / Report
+# =========================
+target/
+reports/
+test-output/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
