@@ -1,0 +1,6 @@
+{
+  "name": "FlowStock",
+  "description": "Warehouse Management System for managing Inbound, Inventory, Orders, and Shipments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
