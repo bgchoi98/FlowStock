@@ -38,6 +38,7 @@ logs/
 # Spring Properties
 # =========================
 . Properties
+Server/main/src/main/resources/application-local.properties
 
 # =========================
 # Environment Variables
